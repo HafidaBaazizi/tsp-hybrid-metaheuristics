@@ -112,8 +112,8 @@ Le dépôt contient :
 * Le code source complet et les instructions d’exécution ;
 * Les résultats expérimentaux (CSV, tableaux et figures) ;
 * Le rapport final en PDF (`report/tsp_hybrid_report.pdf`) et sa source LaTeX ;
-* Un notebook de démonstration : `demo_results.ipynb`.
-* Le script de lancement automatique `run_project.bat` (sur Windows) ;
+* Un notebook de démonstration : `demo_results.ipynb` ;
+* Le script de lancement automatique `run_project.bat` (sur Windows) .
 
 ---
 
