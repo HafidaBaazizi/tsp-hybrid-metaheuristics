@@ -1,4 +1,3 @@
-````markdown
 # Projet : Hybridation métaheuristique pour le problème du voyageur de commerce (TSP)
 
 ## Description
