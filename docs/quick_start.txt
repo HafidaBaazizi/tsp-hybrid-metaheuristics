@@ -1,0 +1,1 @@
+Double-cliquer sur run_project.bat sous Windows, ou utiliser les commandes decrites dans le README.
