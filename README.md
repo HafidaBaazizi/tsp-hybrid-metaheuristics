@@ -135,8 +135,9 @@ Le dépôt contient :
 ## Archive complète du projet
 
 Une archive `.rar` complète est incluse dans ce dépôt. Elle regroupe tous les dossiers et fichiers nécessaires du projet dans une seule version compressée.
-## Auteur
 
 ---
+## Auteur
+
 **Hafida Baazizi**
 
