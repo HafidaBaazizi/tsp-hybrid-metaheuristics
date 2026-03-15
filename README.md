@@ -132,8 +132,11 @@ Le dépôt contient :
 * le notebook `demo_results.ipynb`.
 
 ---
+## Archive complète du projet
 
+Une archive `.rar` complète est incluse dans ce dépôt. Elle regroupe tous les dossiers et fichiers nécessaires du projet dans une seule version compressée.
 ## Auteur
 
+---
 **Hafida Baazizi**
 
