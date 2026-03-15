@@ -123,13 +123,12 @@ Selon l’organisation du dépôt, une copie peut aussi être visible directemen
 
 Le dépôt contient :
 
-* le code source ;
+* le code source complet;
 * les instructions d’exécution ;
-* les résultats expérimentaux ;
-* les figures ;
+* les résultats expérimentaux sous forme de fichiers CSV, tableau comparatif et figures ;;
 * le rapport final en PDF ;
 * la source LaTeX du rapport ;
-* le notebook `demo_results.ipynb`.
+* un notebook de démonstration :`demo_results.ipynb`.
 
 ---
 ## Archive complète du projet
