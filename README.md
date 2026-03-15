@@ -1,29 +1,27 @@
 # Projet : Hybridation métaheuristique pour le problème du voyageur de commerce (TSP)
 
 ## Description
-Ce projet a été réalisé dans le cadre du module de métaheuristiques. Il porte sur le problème du voyageur de commerce (**TSP**) et compare deux approches :
+Ce projet a été réalisé dans le cadre du module de métaheuristiques. Il porte sur le problème du voyageur de commerce (TSP) et compare deux approches :
 
-- Une heuristique gloutonne du **plus proche voisin** ;
-- Une approche hybride de type **algorithme mémétique**, combinant un **algorithme génétique** et une **recherche locale 2-opt**.
+- une heuristique gloutonne du plus proche voisin ;
+- une approche hybride de type algorithme mémétique, combinant un algorithme génétique et une recherche locale 2-opt.
 
-Le projet comprend le **code source**, les **instances TSPLIB**, les **résultats expérimentaux**, les **figures**, un **notebook de démonstration** et le **rapport final en PDF**.
-
----
+Le projet comprend le code source, les instances TSPLIB, les résultats expérimentaux, les figures, un notebook de démonstration et le rapport final en PDF.
 
 ## Structure du projet
 
 ### `data/tsplib/`
 Ce dossier contient :
-- Les instances TSPLIB utilisées dans les expériences ;
-- Le fichier `solutions.txt`, qui regroupe les meilleurs coûts connus (**BKS**) des instances testées.
+- les instances TSPLIB utilisées dans les expériences ;
+- le fichier `solutions.txt`, qui regroupe les meilleurs coûts connus (BKS) des instances testées.
 
 ### `src/`
 Ce dossier contient l’implémentation principale du projet :
-- Lecture des instances ;
-- Heuristique gloutonne ;
-- Algorithme mémétique ;
-- Recherche locale 2-opt ;
-- Fonctions de coût et outils utilitaires.
+- lecture des instances ;
+- heuristique gloutonne ;
+- algorithme mémétique ;
+- recherche locale 2-opt ;
+- fonctions de coût et outils utilitaires.
 
 ### `scripts/`
 Ce dossier contient les scripts principaux du projet :
@@ -39,9 +37,9 @@ Ce dossier contient les sorties expérimentales :
 
 ### `report/`
 Ce dossier contient les fichiers du rapport :
-- La source LaTeX du compte rendu ;
-- Le fichier `tables_generated_results.tex`, qui correspond au tableau généré automatiquement et inséré dans le rapport ;
-- Le rapport final en PDF : `report/tsp_hybrid_report.pdf`.
+- la source LaTeX du compte rendu ;
+- le fichier `tables_generated_results.tex`, qui correspond au tableau généré automatiquement et inséré dans le rapport ;
+- le rapport final en PDF : `report/tsp_hybrid_report.pdf`.
 
 ### `assets/`
 Ce dossier contient les éléments graphiques utilisés dans le projet, comme le logo de l’université.
@@ -49,28 +47,20 @@ Ce dossier contient les éléments graphiques utilisés dans le projet, comme le
 ### `demo_results.ipynb`
 Ce notebook permet de visualiser une démonstration du projet, d’explorer une partie des résultats et d’avoir un aperçu rapide du fonctionnement global sans relancer immédiatement toutes les expériences.
 
----
-
 ## Prérequis
 Pour exécuter le projet, il faut disposer de :
-- **Python 3.10+**
-- `pip`
-- Les bibliothèques listées dans `requirements.txt`
-
----
+- Python 3.10 ou version supérieure ;
+- `pip` ;
+- les bibliothèques listées dans `requirements.txt`.
 
 ## Installation
-
 Cloner le dépôt puis installer les dépendances :
 
 ```bash
 git clone <lien-du-repository>
 cd tsp_hybrid_project
 pip install -r requirements.txt
-
-```
-
----
+````
 
 ## Exécution du projet
 
@@ -80,7 +70,6 @@ Cette commande exécute les algorithmes sur les instances TSPLIB et enregistre l
 
 ```bash
 python scripts/run_experiments.py --data-dir data/tsplib --output results/raw_results.csv --runs 5 --seed 42 --solutions data/tsplib/solutions.txt
-
 ```
 
 ### 2. Générer la synthèse
@@ -89,10 +78,7 @@ Cette commande lit les résultats bruts et produit le fichier récapitulatif, le
 
 ```bash
 python scripts/summarize_results.py --input results/raw_results.csv --summary results/summary_results.csv --latex report/tables_generated_results.tex --figure-dir results/figures
-
 ```
-
----
 
 ## Exécution via le notebook
 
@@ -100,28 +86,21 @@ Le notebook `demo_results.ipynb` peut être ouvert avec Jupyter Notebook, Jupyte
 
 ```bash
 jupyter notebook demo_results.ipynb
-
 ```
 
----
-
-## Rapport et Livrables
+## Rapport et livrables
 
 Le dépôt contient :
 
-* Le code source complet et les instructions d’exécution ;
-* Les résultats expérimentaux (CSV, tableaux et figures) ;
-* Le rapport final en PDF (`report/tsp_hybrid_report.pdf`) et sa source LaTeX ;
-* Un notebook de démonstration : `demo_results.ipynb` ;
-* Le script de lancement automatique `run_project.bat` (sur Windows) .
-
----
+* le code source complet et les instructions d’exécution ;
+* les résultats expérimentaux (CSV, tableaux et figures) ;
+* le rapport final en PDF (`report/tsp_hybrid_report.pdf`) et sa source LaTeX ;
+* un notebook de démonstration : `demo_results.ipynb` ;
+* le script de lancement automatique `run_project.bat` (sur Windows).
 
 ## Archive complète du projet
 
-Une archive `.rar` complète est incluse dans ce dépôt. Elle regroupe tous les dossiers et fichiers nécessaires du projet dans une seule version compressée pour faciliter le transfert.
-
----
+Une archive `.rar` complète est incluse dans ce dépôt. Elle regroupe tous les dossiers et fichiers nécessaires du projet dans une seule version compressée afin de faciliter le transfert.
 
 ## Auteur
 
